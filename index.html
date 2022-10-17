@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ergebnisvorschau</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <p id="nameIt">Array Vertiefung</p>
+    <button id="darkModeButton" class="darkModeButton">Change Theme</button>
+    <section id="nameItSection">
+      <!-- AB HIER AUFGABE -->
+        <h2>Teilnehmerliste</h2>
+  <table>
+  <th>
+    <td>Vorname</td>
+    <td></td>
+    <td></td>
+    <td>Nachname</td>
+      </th>
+  </table>
+  <div class="fieldColor">
+                      <div class="formular">
+              <input type="name" name="user" id="inputName" placeholder="Bitte ausfüllen"/>
+              <label for="inputName">  </label>
+            </div>
+            <hr />
+              <button id="btnAdd" onclick="add()">Hinzufügen</button>
+                <button id="btnDelete" onclick="sub()">Rückgängig</button>
+          </div>
+        <!-- ======== OUTPUT ======== -->
+      <div>
+        <h2>Liste Teilnehmende</h2>
+        <div id="list"></div>
+        <p id="numberUsers">Anzahl Teilnehmende</p>
+      </div>
+    </section>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
